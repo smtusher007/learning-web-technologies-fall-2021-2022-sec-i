@@ -1,0 +1,28 @@
+<students>
+	<student SLNO="23">
+		<NAME> John Carter </NAME>
+		<ADMISSIONDATE>
+			<DAY>25</DAY>
+			<MONTH>12</MONTH>
+			<YEAR>2015</YEAR>
+		</ADMISSIONDATE>
+	</student>
+
+	<student SLNO="29">
+		<NAME> Bob Marshal </NAME>
+		<ADMISSIONDATE>
+			<DAY>13</DAY>
+			<MONTH>01</MONTH>
+			<YEAR>1999</YEAR>
+		</ADMISSIONDATE>
+	</student>
+
+	<student SLNO="23">
+		<NAME> Clark Kent </NAME>
+		<ADMISSIONDATE>
+			<DAY>17</DAY>
+			<MONTH>06</MONTH>
+			<YEAR>2005</YEAR>
+		</ADMISSIONDATE>
+	</student>
+</students>
