@@ -93,6 +93,44 @@ function eql(){
 	document.getElementsByTagName('h1')[0].innerHTML = value;
 	document.getElementById('eql').innerHTML = "";
 }
+function Add(){    
+         var num1=parseInt($("").val());    
+         var num2=parseInt($("").val());    
+         var result =num1+num2;    
+          alert("The result is "+result);    
+}    
+function Substract(){    
+         var num1=parseInt($("").val());    
+         var num2=parseInt($("").val());    
+         var result =num1-num2;    
+          alert("The result is "+result);    
+}    
+function Multiply(){    
+         var num1=parseInt($("").val());    
+         var num2=parseInt($("").val());    
+         var result =num1*num2;    
+          alert("The result is "+result);    
+}    
+        function Divide(){    
+         var num1=parseInt($("").val());    
+         var num2=parseInt($("").val());    
+         var result =num1/num2;    
+          alert("The result is "+result);    
+}    
+function ajax(){
+	let eql = document.getElementById('eql').value;
+	let xhttp = new XMLHttpRequest();
+
+	xhttp.open('POST', 'Show.php', true);
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send('eql='+eql);
+	xhttp.onreadystatechange = function(){
+
+		if(this.readyState == 4 && this.status == 200){
+			document.getElementById('h1').innerHTML = this.responseText;
+		}
+	}
+}
 
 
 
