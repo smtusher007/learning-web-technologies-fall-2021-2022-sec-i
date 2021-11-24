@@ -97,25 +97,25 @@ function Add(){
          var num1=parseInt($("").val());    
          var num2=parseInt($("").val());    
          var result =num1+num2;    
-          alert("The result is "+result);    
+         alert("The result is "+result);    
 }    
 function Substract(){    
          var num1=parseInt($("").val());    
          var num2=parseInt($("").val());    
          var result =num1-num2;    
-          alert("The result is "+result);    
+         alert("The result is "+result);    
 }    
 function Multiply(){    
          var num1=parseInt($("").val());    
          var num2=parseInt($("").val());    
          var result =num1*num2;    
-          alert("The result is "+result);    
+         alert("The result is "+result);    
 }    
-        function Divide(){    
+function Divide(){    
          var num1=parseInt($("").val());    
          var num2=parseInt($("").val());    
          var result =num1/num2;    
-          alert("The result is "+result);    
+         alert("The result is "+result);    
 }    
 function ajax(){
 	let eql = document.getElementById('eql').value;
