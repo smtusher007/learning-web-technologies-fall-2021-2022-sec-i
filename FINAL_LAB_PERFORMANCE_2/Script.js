@@ -99,7 +99,7 @@ function Add(){
          var result =num1+num2;    
          alert("The result is "+result);    
 }    
-function Substract(){    
+function Substrac(){    
          var num1=parseInt($("").val());    
          var num2=parseInt($("").val());    
          var result =num1-num2;    
